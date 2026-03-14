@@ -28,7 +28,7 @@
 {
   background-color: var(--trans);
   position: fixed;
-  width: 99%;
+  width: inherit;
   margin: 0;
   left: 0;
   right: 0;
@@ -111,6 +111,7 @@
   color: var(--ty);
   font-weight: bolder;
   position: relative;
+  cursor: pointer;
   align-self: center;
   justify-self: center;
   margin-top: 20px;
